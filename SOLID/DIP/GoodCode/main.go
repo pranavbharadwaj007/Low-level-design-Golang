@@ -60,9 +60,6 @@ func (p *PushNotificationService) Send(msg string) {
 
 // Main function to demonstrate both implementations
 func main() {
-    // Bad implementation example
-    fmt.Println("Bad Implementation:")
-    BadExample()
 
     fmt.Println("\nGood Implementation:")
     // Good implementation example

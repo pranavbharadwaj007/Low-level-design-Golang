@@ -47,7 +47,6 @@ classDiagram
 
 ## Sequence of Operations
 ```
-flowchart TD
     A[Main Program] -->|Create| B[StockMarket]
     B -->|Start| C((processUpdates Goroutine))
     
